@@ -10,8 +10,10 @@ const eventos: Evento[] = [
         data: new Date('2024-12-01T09:00:00Z'),
         local: 'Garanhuns, PE',
         descricao: 'Um evento completo para aprender desenvolvimento fullstack.',
-        imagem: '',
-        imagemBackground: '',
+        imagem:
+        "https://www.themonastery.org/assets/themonastery/blog/scaled/duggars.jpg",
+        imagemBackground:
+        "https://img.freepik.com/fotos-premium/ondas-abstratas-brilhantes-de-celebracao-do-arco-iris-fluem-suavemente-geradas-por-ia_188544-9530.jpg?semt=ais_hybrid",
         publicoEsperado: 200,
         convidados: [
             {
@@ -57,8 +59,10 @@ const eventos: Evento[] = [
         data: new Date('2024-12-01T09:00:00Z'),
         local: 'Garanhuns, PE',
         descricao: 'Um evento completo para aprender desenvolvimento front-end.',
-        imagem: '',
-        imagemBackground: '',
+        imagem:
+        "https://www.themonastery.org/assets/themonastery/blog/scaled/duggars.jpg",
+        imagemBackground:
+        "https://img.freepik.com/fotos-premium/ondas-abstratas-brilhantes-de-celebracao-do-arco-iris-fluem-suavemente-geradas-por-ia_188544-9530.jpg?semt=ais_hybrid",
         publicoEsperado: 150,
         convidados: [
             {
@@ -96,3 +100,4 @@ const eventos: Evento[] = [
         ]
     }
 ]
+export default eventos;
