@@ -7,4 +7,5 @@ import criarConvidadoVazio from "./functions/criarConvidadoVazio";
 import criarEventoVazio from "./functions/criarEventoVazio";
 
 export type{Evento, Convidado}
-export {complementarEvento, processarConvidado, criarConvidadoVazio, criarEventoVazio}
+export {complementarEvento, processarConvidado, 
+        criarConvidadoVazio, criarEventoVazio}

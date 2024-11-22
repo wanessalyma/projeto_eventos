@@ -11,13 +11,13 @@ export default function AcessarViaQrCode(props: AcessarViaQrCodeProps) {
       <span className="text-sm font-light text-zinc-400">
         Acesse via Mobile
       </span>
-      <QRCode
+      {/*<QRCode
         value={JSON.stringify({
           id: props.evento.id,
           senha: props.evento.senha,
         })}
         className="w-32 h-32"
-      />
+      />*/}
     </div>
   );
 }

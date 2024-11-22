@@ -11,7 +11,7 @@ export default function LogoGrande() {
   return (
     <Link
       href="/"
-      className={`flex flex-col items-center gap-2 ${fonte.className}`}
+      className={'flex flex-col items-center gap-2 ${fonte.className}'}
     >
       <Image src="/logo.svg" width={100} height={100} alt="Logo" />
       <h1 className="text-5xl">
